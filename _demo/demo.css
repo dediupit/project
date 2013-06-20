@@ -1,0 +1,123 @@
+.solid-gray, #solid-gray { background:#f0f2f3; }
+.shattered, #shattered { background:url(../img/misc/backgrounds/patterns/shattered.png) repeat; }
+.a60degree_gray, #a60degree_gray { background:url(../img/misc/backgrounds/patterns/60degree_gray.png) repeat; }
+.bgnoise_lg, #bgnoise_lg { background:url(../img/misc/backgrounds/patterns/bgnoise_lg.png) repeat; }
+.bright_squares, #bright_squares { background:url(../img/misc/backgrounds/patterns/bright_squares.png) repeat; }
+.diamond_upholstery, #diamond_upholstery { background:url(../img/misc/backgrounds/patterns/diamond_upholstery.png) repeat; }
+.wavecut, #wavecut { background:url(../img/misc/backgrounds/patterns/wavecut.png) repeat; }
+.vichy, #vichy { background:url(../img/misc/backgrounds/patterns/vichy.png) repeat; }
+.cubes, #cubes { background:url(../img/misc/backgrounds/patterns/cubes.png) repeat; }
+.debut_dark, #debut_dark { background:url(../img/misc/backgrounds/patterns/debut_dark.png) repeat; }
+.fancy_deboss, #fancy_deboss { background:url(../img/misc/backgrounds/patterns/fancy_deboss.png) repeat; }
+.grunge_wall, #grunge_wall { background:url(../img/misc/backgrounds/patterns/grunge_wall.png) repeat; }
+.light_honeycomb, #light_honeycomb { background:url(../img/misc/backgrounds/patterns/light_honeycomb.png) repeat; }
+.noise_pattern_with_crosslines, #noise_pattern_with_crosslines { background:url(../img/misc/backgrounds/patterns/noise_pattern_with_crosslines.png) repeat; }
+.paven, #paven { background:url(../img/misc/backgrounds/patterns/paven.png) repeat; }
+.roughcloth, #roughcloth { background:url(../img/misc/backgrounds/patterns/roughcloth.png) repeat; }
+.silver_scales, #silver_scales { background:url(../img/misc/backgrounds/patterns/silver_scales.png) repeat; }
+.smooth_wall, #smooth_wall { background:url(../img/misc/backgrounds/patterns/smooth_wall.png) repeat; }
+.soft_circle_scales, #soft_circle_scales { background:url(../img/misc/backgrounds/patterns/soft_circle_scales.png) repeat; }
+.soft_wallpaper, #soft_wallpaper { background:url(../img/misc/backgrounds/patterns/soft_wallpaper.png) repeat; }
+.subtle_freckles, #subtle_freckles { background:url(../img/misc/backgrounds/patterns/subtle_freckles.png) repeat; }
+.washi, #washi { background:url(../img/misc/backgrounds/patterns/washi.png) repeat; }
+.circles, #circles { background:url(../img/misc/backgrounds/patterns/circles.png) repeat; }
+.white_carbon, #white_carbon { background:url(../img/misc/backgrounds/patterns/white_carbon.png) repeat; }
+.whitey, #whitey { background:url(../img/misc/backgrounds/patterns/whitey.png) repeat; }
+.concrete_wall_2, #concrete_wall_2 { background:url(../img/misc/backgrounds/patterns/concrete_wall_2.png) repeat; }
+.xv, #xv { background:url(../img/misc/backgrounds/patterns/xv.png) repeat; }
+.wood1, #wood1 { background:url(../img/misc/backgrounds/patterns/wood1.jpg) repeat; }
+
+.black_denim, #black_denim { background:url(../img/misc/backgrounds/patterns/black_denim.png) repeat; }
+.black_linen_v2, #black_linen_v2 { background:url(../img/misc/backgrounds/patterns/black_linen_v2.png) repeat; }
+.black-Linen, #black-Linen { background:url(../img/misc/backgrounds/patterns/black-Linen.png) repeat; }
+.dark_wood, #dark_wood { background:url(../img/misc/backgrounds/patterns/dark_wood.png) repeat; }
+
+.random_grey_variations, #random_grey_variations { background:url(../img/misc/backgrounds/patterns/random_grey_variations.png) repeat; }
+.tactile_noise, #tactile_noise { background:url(../img/misc/backgrounds/patterns/tactile_noise.png) repeat; }
+.wood_1, #wood_1 { background:url(../img/misc/backgrounds/patterns/wood_1.png) repeat; }
+.wood_pattern, #wood_pattern { background:url(../img/misc/backgrounds/patterns/wood_pattern.png) repeat; }
+
+/* Shadow */
+#no-shadow { background:url(no-shadow.png) no-repeat; }
+#light-shadow { background:url(shadow1.png) no-repeat; }
+#strong-shadow { background:url(shadow2.png) no-repeat; }
+
+#toggle { 
+	position:absolute;
+	top:65px;
+	left:0;
+	display:block;
+	background:url(../_demo/settings-toggle.png) no-repeat;
+	width:47px;
+	height:77px;
+	cursor:pointer;
+}
+#demo-settings {
+	position:absolute;
+	top:20px;
+	left:-270px;
+	z-index:999;
+	padding:20px 20px 20px 30px;
+	width:220px;
+	background:#fff;
+	display:none;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+#demo-settings .change,
+#demo-settings .shadow {
+	float:left;
+	display:block;
+	width:40px;
+	height:40px;
+	margin:0 20px 20px 0;
+	text-decoration:none;
+	cursor:pointer;
+}
+#demo-settings span.active { 
+	height:38px;
+	width:38px;
+	border:1px solid #393939; 
+}
+#demo-settings span.last { margin-right:0; }
+#demo-settings h2 {
+	font-weight:normal;
+	font-size:16px;
+	margin:0 0 4px 0;
+}
+#demo-settings a { text-decoration:none; }
+#demo-settings .puchase { margin:0 10px 0 12px; }
+.hr { 
+	margin:0 0 10px 0;
+	height:1px;
+	border-bottom:1px solid #393939;
+	clear:both;
+}
+.puchase-button,
+.tour-button {
+	display:block;
+	height:29px;
+	float:left;
+	margin:6px 0 12px 0;
+}
+.puchase-button { 
+	width:150px;
+	background:url(../_demo/button-purchase.png) no-repeat;
+	margin-left:33px;
+}
+.tour-button { 
+	width:89px;
+	background:url(../_demo/button-tour.png) no-repeat;
+	margin-left:10px;
+}
+.puchase-button:hover,
+.tour-button:hover { background-position: 0 -29px; }
+.puchase-button:active,
+.tour-button:active { background-position: 0 -58px; }
+
+/* Smartphone (Horizontal) */
+@media only screen and (max-width: 727px) {
+	#toggle,
+	#demo-settings { display:none; }
+}
